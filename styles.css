@@ -12,6 +12,10 @@ header {
     text-align: center;
     background-color: black;
     color: white;
+    background-image: url('Mountains.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
