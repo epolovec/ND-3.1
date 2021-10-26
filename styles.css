@@ -8,7 +8,6 @@ body {
 }
 
 header {
-    padding: 300px;
     text-align: center;
     background-color: black;
     color: white;
@@ -16,6 +15,9 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width:100%;
+    padding-top: 15em;
+    padding-bottom: 15em;
 }
 
 
@@ -52,5 +54,36 @@ h1 {
 }
 
 header .first_paragraph {
-    margin: 20px;
+    margin: 20px, 0px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+aside {
+    flex: 40%;
+    padding: 50px;
+    background-color: #f1f1f1;
+    font-stretch: ultra-condensed;
+    color: #468AC9;
+}
+
+main {
+    flex: 60%;
+    padding: 20px;
+    background-color: #468AC9;
+    padding:30px;
+    color: white;
+}
+
+aside p {
+    margin:0px; 
+}
+
+aside h2 {
+    margin-bottom:0px;
 }
