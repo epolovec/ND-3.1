@@ -68,7 +68,6 @@ aside {
     flex: 40%;
     padding: 50px;
     background-color: #f1f1f1;
-    font-stretch: ultra-condensed;
     color: #468AC9;
 }
 
@@ -86,4 +85,36 @@ aside p {
 
 aside h2 {
     margin-bottom:0px;
+    font-stretch: ultra-condensed;
+}
+
+main input {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  width:90%;
+  margin: 6px 2px;
+}
+
+main h2 {
+  font-size:40px
+}
+
+main .message {
+  padding: 10px 10px 80px;
+}
+
+main .button {
+  background-color: #468AC9;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin:auto;
+  border: 3px solid white;
+  cursor: pointer;
+  font-weight:bold;
 }
