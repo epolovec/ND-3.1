@@ -97,6 +97,7 @@ main input {
   text-decoration: none;
   width:90%;
   margin: 6px 2px;
+  font-size:17px;
 }
 
 main h2 {
@@ -133,4 +134,15 @@ main .button {
   flex:40%;
   margin:10px;
     text-align: center;
+}
+
+.text h2{
+  margin: 60px 0px 20px;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.text p {
+  margin: 0px 50px 0px 0px;
+  font-size:17px;
 }
