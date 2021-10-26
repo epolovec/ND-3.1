@@ -121,5 +121,16 @@ main .button {
 
 .responsive {
   width:40%;
-  margin: 50px;
+  margin: 40px 10px 40px 50px;
+}
+
+.below{
+      display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+  flex:40%;
+  margin:10px;
+    text-align: center;
 }
