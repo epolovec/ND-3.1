@@ -118,3 +118,8 @@ main .button {
   cursor: pointer;
   font-weight:bold;
 }
+
+.responsive {
+  width:40%;
+  margin: 50px;
+}
