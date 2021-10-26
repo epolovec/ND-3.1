@@ -20,9 +20,6 @@ header{
     filter: grayscale(30%);
 }
 
-header::before{
-  
-}
 
 nav {
     background-color: white;
