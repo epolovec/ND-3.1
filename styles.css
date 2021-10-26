@@ -7,9 +7,8 @@ body {
     margin: 0px;
 }
 
-header {
+header{
     text-align: center;
-    background-color: black;
     color: white;
     background-image: url('Mountains.png');
     background-repeat: no-repeat;
@@ -18,8 +17,12 @@ header {
     width:100%;
     padding-top: 15em;
     padding-bottom: 15em;
+    filter: grayscale(30%);
 }
 
+header::before{
+  
+}
 
 nav {
     background-color: white;
@@ -46,6 +49,7 @@ header .button {
   margin: 4px 2px;
   cursor: pointer;
   font-weight:bold;
+  
 }
 
 h1 {
