@@ -1,7 +1,9 @@
+
 * {
     box-sizing: border-box;
     font-family:Arial, sans-serif;
 }
+
 
 body {
     margin: 0px;
@@ -15,8 +17,8 @@ header{
     background-attachment: fixed;
     background-size: cover;
     width:100%;
-    padding-top: 15em;
-    padding-bottom: 15em;
+    padding-top: 20%;
+    padding-bottom: 20%;
     filter: grayscale(30%);
 }
 
@@ -70,6 +72,7 @@ aside {
     padding: 50px;
     background-color: #f1f1f1;
     color: #468AC9;
+    min-width: 200px;
 }
 
 main {
@@ -118,23 +121,28 @@ main .button {
   margin:auto;
   border: 3px solid white;
   cursor: pointer;
-  font-weight:bold;
-}
-
-.responsive {
-  width:40%;
-  margin: 40px 10px 40px 50px;
+  font-weight: bold;
 }
 
 .below{
       display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.responsive {
+  width: 40%;
+  height: 40%;
+  flex:40%;
+  margin: 40px 10px 0px 50px;
 }
 
 .text {
-  flex:40%;
-  margin:10px;
-    text-align: center;
+  flex: 40%;
+  margin: 10px;
+  text-align: center;
+  min-width: 200px;
+
 }
 
 .text h2{
@@ -145,5 +153,5 @@ main .button {
 
 .text p {
   margin: 0px 50px 0px 0px;
-  font-size:17px;
+  font-size: 17px;
 }
